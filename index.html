@@ -7,34 +7,37 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Garamond&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Garamond', serif;
             scroll-behavior: smooth;
         }
         .bg-gradient-dark {
-            background: linear-gradient(180deg, rgba(23, 23, 23, 1) 0%, rgba(30, 30, 30, 1) 100%);
+            background: linear-gradient(180deg, rgba(32, 32, 32, 1) 0%, rgba(20, 20, 20, 1) 100%);
         }
         .nav-link {
             transition: color 0.2s ease-in-out;
         }
         .nav-link:hover {
-            color: #b9e1ff; /* A lighter blue for hover effect */
+            color: #F5C544; /* Gold from logo */
+        }
+        .inter-font {
+            font-family: 'Inter', sans-serif;
         }
     </style>
 </head>
 <body class="bg-gradient-dark text-gray-300">
 
     <!-- Fixed Navigation Bar -->
-    <nav class="fixed top-0 left-0 w-full z-50 bg-gray-900 bg-opacity-80 backdrop-blur-md p-4 shadow-xl">
-        <div class="container mx-auto flex justify-between items-center">
-            <a href="#about" class="text-xl font-bold text-white nav-link">SUAPS</a>
-            <div class="flex space-x-6">
+    <nav class="fixed top-0 left-0 w-full z-50 bg-gray-950 bg-opacity-80 backdrop-blur-md p-4 shadow-xl">
+        <div class="container mx-auto flex justify-center items-center">
+            <div class="flex space-x-6 inter-font">
                 <a href="#about" class="text-sm font-medium text-gray-400 nav-link">About</a>
                 <a href="#dual-approach" class="text-sm font-medium text-gray-400 nav-link">Dual Approach</a>
                 <a href="#modes" class="text-sm font-medium text-gray-400 nav-link">Facilitation Modes</a>
                 <a href="#funding" class="text-sm font-medium text-gray-400 nav-link">Funding</a>
+                <a href="https://www.societyforuapstudies.org" class="text-sm font-medium text-gray-400 nav-link" target="_blank">Main Site</a>
             </div>
         </div>
     </nav>
@@ -44,7 +47,8 @@
 
         <!-- Header Section -->
         <header id="about" class="container mx-auto px-4 py-16 md:py-24 text-center">
-            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight">
+            <img src="SUAPS redesigned logo.png" alt="Society for UAP Studies Logo" class="h-16 w-16 mx-auto mb-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight inter-font">
                 Grants & Research Initiatives
             </h1>
             <p class="text-base md:text-lg text-gray-400 max-w-4xl mx-auto">
@@ -53,20 +57,20 @@
         </header>
 
         <!-- A Dual Approach to Grantmaking Section -->
-        <section id="dual-approach" class="py-16 md:py-20 bg-gray-900 border-t border-b border-gray-700">
+        <section id="dual-approach" class="py-16 md:py-20 bg-gray-950 border-t border-b border-gray-800">
             <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-10 text-center">A Dual Approach to Grantmaking</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-10 text-center inter-font">A Dual Approach to Grantmaking</h2>
                 <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10">
                     <!-- Grant Development -->
-                    <div class="bg-gray-800 rounded-xl p-8 shadow-lg">
-                        <h3 class="text-2xl font-bold text-white mb-2">Grant Development</h3>
+                    <div class="bg-gray-900 rounded-xl p-8 shadow-lg">
+                        <h3 class="text-2xl font-bold text-white mb-2 inter-font">Grant Development</h3>
                         <p class="text-sm text-gray-400 mb-4">
                             Given the relative youth of our emerging field—UAP Studies—this dual approach helps foster discipline and maturity where traditional academic institutions might be more hesitant and conservative in their support. We therefore offer more than just a grants application cycle; we are a partner in the research process. Our dedicated team provides a resource for the research community, offering guidance and assistance to help develop concepts and initial research questions into fully formed, grant-ready proposals. Our aim is to work collaboratively with researchers to strengthen their ideas, ensuring they are well-defined, methodologically sound, and aligned with our shared goals.
                         </p>
                     </div>
                     <!-- Grant Administration -->
-                    <div class="bg-gray-800 rounded-xl p-8 shadow-lg">
-                        <h3 class="text-2xl font-bold text-white mb-2">Grant Administration</h3>
+                    <div class="bg-gray-900 rounded-xl p-8 shadow-lg">
+                        <h3 class="text-2xl font-bold text-white mb-2 inter-font">Grant Administration</h3>
                         <p class="text-sm text-gray-400">
                             We also function as a formal grant-issuing institution, managing the administrative and financial aspects of the awards. We provide structured support and oversight to ensure project compliance, fiscal responsibility, and timely execution of research activities.
                         </p>
@@ -78,21 +82,21 @@
         <!-- Our Facilitation Modes Section -->
         <section id="modes" class="py-16 md:py-20">
             <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-10 text-center">Our Facilitation Modes</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-10 text-center inter-font">Our Facilitation Modes</h2>
                 <p class="text-center text-gray-400 max-w-4xl mx-auto mb-12">
                     To guide projects from inception to completion, we have established two basic modes for our research and administration model that ensures accountability, quality, and long-term value.
                 </p>
                 <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10">
                     <!-- AURA Mode -->
-                    <div class="bg-gray-800 rounded-xl p-8 shadow-lg">
-                        <h3 class="text-2xl font-bold text-white mb-4">Mode 1: AURA <span class="text-lg text-gray-400">(Administrative & Research Advancement)</span></h3>
+                    <div class="bg-gray-900 rounded-xl p-8 shadow-lg">
+                        <h3 class="text-2xl font-bold text-white mb-4 inter-font">Mode 1: <a href="https://www.societyforuapstudies.org/aura-upward" target="_blank" class="hover:text-[#F5C544] transition-colors duration-200">AURA</a> <span class="text-lg text-gray-400">(Administrative & Research Advancement)</span></h3>
                         <p class="text-sm text-gray-400">
-                            This mode, detailed under our existing initiatives, focuses on the careful administration of individual grants. Once a proposal has been developed and successfully received by the Society, we enter into the AURA administrative process, which sees research grants through a well-defined (but flexible) lifecycle. Here, we provide the necessary administrative and financial infrastructure to support the project's Principal Investigators (PIs) and their teams, ensuring a smooth and successful project deployment.
+                            This mode, detailed under our existing <a href="https://www.societyforuapstudies.org/initiatives" target="_blank" class="hover:text-[#F5C544] transition-colors duration-200">initiatives</a>, focuses on the careful administration of individual grants. Once a proposal has been developed and successfully received by the Society, we enter into the AURA administrative process, which sees research grants through a well-defined (but flexible) lifecycle. Here, we provide the necessary administrative and financial infrastructure to support the project's Principal Investigators (PIs) and their teams, ensuring a smooth and successful project deployment.
                         </p>
                     </div>
                     <!-- UPWARD Mode -->
-                    <div class="bg-gray-800 rounded-xl p-8 shadow-lg">
-                        <h3 class="text-2xl font-bold text-white mb-4">Mode 2: UPWARD <span class="text-lg text-gray-400">(The Cross-Projects Research Exploration Model)</span></h3>
+                    <div class="bg-gray-900 rounded-xl p-8 shadow-lg">
+                        <h3 class="text-2xl font-bold text-white mb-4 inter-font">Mode 2: <a href="https://www.societyforuapstudies.org/aura-upward" target="_blank" class="hover:text-[#F5C544] transition-colors duration-200">UPWARD</a> <span class="text-lg text-gray-400">(The Cross-Projects Research Exploration Model)</span></h3>
                         <p class="text-sm text-gray-400 mb-4">
                             Following the completion of individual projects, we may enter into an optional second mode of research. Here, in partnership with the research affiliates whose projects successfully worked through AURA, the Society as an institution takes on a higher-level research role, looking for emergent patterns and interdisciplinary relationships among the completed projects and their datasets. This cross-projects research model is designed to:
                         </p>
@@ -109,23 +113,23 @@
         </section>
 
         <!-- Funding and Governance Section -->
-        <section id="funding" class="py-16 md:py-20 bg-gray-900 border-t border-gray-700">
+        <section id="funding" class="py-16 md:py-20 bg-gray-950 border-t border-gray-800">
             <div class="container mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-10 text-center">Funding and Governance</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-10 text-center inter-font">Funding and Governance</h2>
                 <p class="text-center text-gray-400 max-w-4xl mx-auto mb-12">
                     As is to be expected, like any other grant-issuing institution, grant awards offered by the Society are always subject to the availability of funding, and calls for grant proposals (CFPs) do not in themselves guarantee that availability. As the Society builds trust and reliable engagement with the community, we hope to establish a sustainable funding cycle that can support the Society’s grants initiative.
                 </p>
                 <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
                     <!-- Restricted Grants -->
-                    <div class="bg-gray-800 rounded-xl p-8 shadow-lg">
-                        <h3 class="text-2xl font-bold text-white mb-4">Restricted Grants</h3>
+                    <div class="bg-gray-900 rounded-xl p-8 shadow-lg">
+                        <h3 class="text-2xl font-bold text-white mb-4 inter-font">Restricted Grants</h3>
                         <p class="text-sm text-gray-400 mb-4">
                             These are gifts made to the Society by donors for use by specific grant-seeking projects. This enables the creation of donor-directed research grants (DDRGs), where the donor specifies the project or area of research they wish to fund through their restricted gift to the Society. This allows for direct collaboration with our partners in supporting specific, high-priority research. To date, the Society has worked with the Baltic Sea Anomaly Project and the projects of the private group SeaQR, to facilitate DDRGs made possible by the generous support provided by donors.
                         </p>
                     </div>
                     <!-- Restricted But Discretionary Grants -->
-                    <div class="bg-gray-800 rounded-xl p-8 shadow-lg">
-                        <h3 class="text-2xl font-bold text-white mb-4">Restricted But Discretionary</h3>
+                    <div class="bg-gray-900 rounded-xl p-8 shadow-lg">
+                        <h3 class="text-2xl font-bold text-white mb-4 inter-font">Restricted But Discretionary</h3>
                         <p class="text-sm text-gray-400 mb-4">
                             These are funds awarded to the Society by donors for distribution to our portfolio of grant proposals at our discretion. Donors are attracted by the curated portfolio of proposals that we present, but allow the Society to determine which projects are awarded funding. To ensure the highest ethical standards and to avoid any conflicts of interest, gifts of this sort will be directed toward grants awarded by an independent and external grants award committee. This committee will evaluate proposals based on merit, originality, and alignment with the Society’s mission. The results of this evaluation will be submitted to the grants development and administration department director and, in final consultation with the executive leadership of the Society, award determinations will be made and grants disbursed in accordance with our AURA administrative system.
                         </p>
@@ -135,12 +139,15 @@
         </section>
 
         <!-- Call to Action Footer -->
-        <footer class="py-12 bg-gray-900 text-center">
+        <footer class="py-12 bg-gray-950 text-center border-t border-gray-800">
             <div class="container mx-auto px-4">
-                <h3 class="text-2xl font-bold text-white mb-4">Join Us in Advancing the Field</h3>
+                <h3 class="text-2xl font-bold text-white mb-4 inter-font">Join Us in Advancing the Field</h3>
                 <p class="text-sm text-gray-400 max-w-2xl mx-auto mb-6">
-                    We are excited about this next evolution of the Society and look forward to partnering with the research community to build a new foundation for the study of UAP.
+                    Ready to submit a proposal? We are excited about this next evolution of the Society and look forward to partnering with the research community to build a new foundation for the study of UAP.
                 </p>
+                <a href="https://www.societyforuapstudies.org/rfp-submissions" target="_blank" class="inter-font bg-[#F5C544] text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-white transition-colors duration-200">
+                    Submit Your Proposal
+                </a>
             </div>
         </footer>
 
